@@ -4,11 +4,11 @@ const commentApi = 'https://us-central1-involvement-api.cloudfunctions.net/capst
 const commentkey = 'jUTHHFhjhjmbJGYTMBJgyj';
 const commentUrl = `${commentApi}/apps/:${commentkey}/comments/`;
 
-const likeapi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/';
-const likekey = 'ahggGFtfjsuJHUTHhfyFHJ';
-const likeurl = `${likeapi}/apps/:${likekey}/likes/`;
+const likeApi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/';
+const likeKey = 'ahggGFtfjsuJHUTHhfyFHJ';
+const likeUrl = `${likeApi}/apps/:${likeKey}/likes/`;
 
-const foodApi = 'www.themealdb.com/api/json/v1/1/search.php?s';
+const foodApi = 'https://themealdb.com/api/json/v1/1/search.php?s';
 
 const foodApiObj = [];
 
@@ -16,4 +16,4 @@ foods.forEach((food) => {
   foodApiObj.push(`${foodApi}=${food}`);
 });
 
-export { commentUrl, likeurl, foodApiObj };
+export { commentUrl, likeUrl, foodApiObj };
