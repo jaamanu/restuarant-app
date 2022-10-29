@@ -4,6 +4,7 @@ import Comment from './comments.js';
 // import { modalDisplay } from './modules/commentpop.js';
 const main = document.querySelector('main');
 const popup = document.querySelector('#modalDisplay');
+const main = document.querySelector('main');
 
 /* eslint-disable */
 export const display = async () => {
@@ -24,6 +25,8 @@ export const display = async () => {
         const btn2 = document.createElement('button');
 
         section.innerHTML = `
+        main.innerHTML += `
+            <section class="food_items flex">
               <div class="">
                 <span class="" id=${item.idMeal}>
                 </span>
@@ -142,6 +145,13 @@ export const display = async () => {
             get(item.idMeal);
           });
         });
+              <div class="column flex">
+                <button class="button">Comments</button>
+                <button class="button">Reservations</button>
+            </section>`;
+
+        // renderLikes(item.idMeal);
+        // return 'done';
       });
     } catch (err) {
       main.innerHTML = 'err';
