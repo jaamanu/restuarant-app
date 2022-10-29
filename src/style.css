@@ -16,7 +16,7 @@
   justify-content: center;
   gap: 30%;
   font-size: 20px;
-  font-weight: 550;
+  font-weight: 500;
   position: fixed;
   top: 0;
   background: #2d2c2c;
@@ -37,7 +37,7 @@ main {
 }
 
 .link a {
-  color: rgba(228, 226, 226, 0.753);
+  color: rgba(206, 205, 205, 0.753);
   text-decoration: none;
 }
 
