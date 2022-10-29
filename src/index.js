@@ -1,6 +1,11 @@
 import './style.css';
-import { display } from './modules/displayfood.js';
-import { font } from './modules/footer.js';
+import getMenuList from './modules/APIs.js';
+import renderData from './modules/displayfood.js';
 
-display();
-font();
+const loadFoodData = () => {
+  getMenuList()
+    .then((response) => response.json())
+    .then((data) => renderData(data.results));
+};
+
+window.onload = loadFoodData();

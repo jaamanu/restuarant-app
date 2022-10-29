@@ -1,10 +1,8 @@
 /* eslint-disable */
-class Comment {
-  constructor(username, comment, item_id) {
-    this.username = username;
-    this.comment = comment;
-    this.item_id = item_id;
-  }
-}
+const getUserComment = async (id) => {
+  const response = await fetch(`https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/HWaITSk46Gfx2l76n1tS/comments?item_id=${id}`);
+  const data = response.json();
+  return data;
+};
 
-export default Comment;
+export default getUserComment;
