@@ -6,6 +6,4 @@ const font = () => {
 `;
 };
 
-/* eslint-disable */
-export { font };
-/* eslint-enable */
+export default font;

@@ -10,7 +10,6 @@ The JavaScript capstone project is about building  web application based on an e
 
 ## Project web demo link. 
 
-
 ## Built With 
 - Html. 
 - Css. 
@@ -32,7 +31,6 @@ If you installed git you can clone the code to your machine, or download a ZIP o
 
 [Download the ZIP from this location], or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
-```bash
 git clone  https://github.com/jaamanu/Javascript-Capstone-Project.git
 - Once the files are on your machine, open the _todo-list_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
 
@@ -40,12 +38,10 @@ git clone  https://github.com/jaamanu/Javascript-Capstone-Project.git
 
 1. Install Node Modules
 
-   ```sh
    npm install
    
    2. Start the development server
 
-   ```sh
    npm run start
 3. Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
@@ -56,7 +52,6 @@ To check for functionality with automated test run npm test
 
 1. Generate a full static production build
 
-   ```sh
    npm run build
 
 ## Author 1

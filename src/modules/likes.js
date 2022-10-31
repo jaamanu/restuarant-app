@@ -1,8 +1,7 @@
-/* eslint-disable */
 class Likes {
-    constructor(item_id) {
-      this.item_id = item_id;
-    }
+  constructor(itemid) {
+    this.item_id = itemid;
   }
-  
-  export default Likes;
+}
+
+export default Likes;

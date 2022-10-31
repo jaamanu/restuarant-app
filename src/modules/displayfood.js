@@ -2,15 +2,12 @@ import { foodApiObj, commentUrl, likeUrl } from './APIs.js';
 import Likes from './likes.js';
 
 import Comment from './comments.js';
-// import { modalDisplay } from './modules/commentpop.js';
+
 const main = document.querySelector('.main');
 
 const popup = document.querySelector('#modalDisplay');
 
-/* eslint-disable */
-export const display = async () => {
-/* eslint-enable */
-
+const display = async () => {
   foodApiObj.forEach(async (item) => {
     try {
       const response = await fetch(item);
@@ -190,3 +187,5 @@ export const display = async () => {
     }
   });
 };
+
+export default display;

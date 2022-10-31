@@ -1,9 +1,8 @@
-/* eslint-disable */
 class Comment {
-  constructor(username, comment, item_id) {
+  constructor(username, comment, itemid) {
     this.username = username;
     this.comment = comment;
-    this.item_id = item_id;
+    this.item_id = itemid;
   }
 }
 
