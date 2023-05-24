@@ -8,7 +8,9 @@ The JavaScript capstone project is about building  web application based on an e
 [video link](https://drive.google.com/file/d/1FxApYpw37fJ2XStkbNvisXXsrshisrMW/view?usp=sharing)
 
 
-## Project web demo link. 
+## Project web demo link.
+
+[LIVE DEMO](https://online-restaurant-app.netlify.app/)
 
 ## Built With 
 - Html. 
